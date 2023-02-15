@@ -26,14 +26,19 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 0 0.8rem 0 0rem;
+  border-radius: 0.8rem 0.8rem 0 0rem;
 }
 
 article {
   background: burlywood;
-  border-radius: 0 0.8rem 0 0.8rem;
+  border-radius: 0.8rem;
   font-family: Arial, Helvetica, sans-serifs;
   margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 /************************************************* Tekst *************************************************/
@@ -61,6 +66,7 @@ p {
   border-radius: 0 0.8rem 0 0.8rem;
   border: 1px solid black;
   padding: 0.5rem;
+  width: fit-content;
 }
 
 .tags {
@@ -86,7 +92,7 @@ p {
   .tags {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
-    gap: 10px;
+    gap: 10%;
     font-size: 0.8rem;
   }
 
