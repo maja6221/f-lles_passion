@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --grey: #f7f6f6;
+  --beige: #f5eedc;
+}
+
+body {
+  margin: 2rem;
+  background-color: var(--beige);
+}
+
+html {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0 0.8rem 0 0rem;
+}
+
+article {
+  background: burlywood;
+  border-radius: 0 0.8rem 0 0.8rem;
+  font-family: Arial, Helvetica, sans-serifs;
+  margin-bottom: 1rem;
+}
+
+/************************************************* Tekst *************************************************/
+
+h2 {
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+p {
+  padding-bottom: 1rem;
+}
+
+/************************************************* Classes *************************************************/
+
+.beskrivelse {
+  padding-bottom: 2rem;
+}
+
+.card {
+  padding: 1.5rem;
+}
+
+.tag {
+  border-radius: 0 0.8rem 0 0.8rem;
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+
+.tags {
+  display: inline-flex;
+  gap: 10px;
+  font-size: 0.8rem;
+}
+
+/************************************************* Media *************************************************/
+
+@media (min-width: 768px) {
+  /* grids */
+  .liste {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  .tags {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+    gap: 10px;
+    font-size: 0.8rem;
+  }
+
+  .tag {
+    padding: 0.5rem;
+  }
+
+  .beskrivelse {
+    font-size: 0.8rem;
+  }
+}
