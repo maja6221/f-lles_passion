@@ -1,10 +1,9 @@
 const urlParams = new URLSearchParams(window.location.search);
 
-const kat = "Accessories";
 const id = urlParams.get("id");
-const url = `https://kea-alt-del.dk/t7/api/products/${id}`;
+const url = `https://personliste-ddf3.restdb.io/rest/drinks${id}`;
 
-const imagePath = `https://kea-alt-del.dk/t7/images/webp/640/${id}.webp`;
+const imagePath = `https://personliste-ddf3.restdb.io/rest/drinks${id}`;
 
 function hentData() {
   fetch(url)
@@ -14,9 +13,10 @@ function hentData() {
 
 function visProdukt(produkt) {
   console.log(produkt);
-  document.querySelector("#model").textContent = produkt.productdisplayname;
-  document.querySelector("#type").textContent = produkt.price;
-  document.querySelector("#color").textContent = produkt.basecolour;
+  document.querySelector("#titel").textContent = drink.navn;
+  document.querySelector("#beskrivelse").textContent = drink.beskrivelse;
+  document.querySelector("#alkohol").textContent = drink.tag4;
+  document.querySelector("#billede").src = "billeder/" + drink.Billede;
   document.querySelector("img").src = imagePath;
 }
 
