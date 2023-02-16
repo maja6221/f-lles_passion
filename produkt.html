@@ -11,7 +11,30 @@
 </head>
 
 <body>
-    <header></header>
+    <header id="grid_menu">
+        <div class="logo">
+            <a href="index.html"><img class="logo_img" src="logo.png" alt="logo"></a>
+        </div>
+
+        <div class="menu_icons">
+            <div class="div_search">
+                <i id="search" class="fa fa-search"></i>
+                <input id="sogefelt" type="text" class="form-input input-group-main" placeholder="Søg" name="search"
+                    required="" autocomplete="off">
+            </div>
+
+            <i id="kurv" class="fa fa-shopping-basket"></i>
+            <i id="user" class="fa fa-user"></i>
+        </div>
+
+        <nav id="header-nav">
+            <ul id="menu">
+                <li class="subnav">
+                    <a href="kategori.html" class="subnavbtn">Drinks</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <h1>Cocktails</h1>
         <template id="smallProductTemplate">
