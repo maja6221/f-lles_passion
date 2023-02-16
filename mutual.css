@@ -2,3 +2,119 @@
   --brun: #deb887;
   --beige: #f5eedc;
 }
+
+/*---------------------------------menu-----------------------------*/
+
+ul#menu li {
+  font-size: 17px;
+  list-style: none;
+  font-family: "Bebas Neue", cursive;
+}
+
+@media (min-width: 600px) {
+  ul#menu li {
+    font-size: 30px;
+  }
+
+  #grid_menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+  }
+}
+
+.subnavbtn {
+  color: black;
+  font-family: "Bebas Neue", cursive;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  padding: 0rem 1rem;
+  box-shadow: 0 12px 28px 0 rgb(0 0 0 /30%);
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-left: 10px;
+  background-color: rgba(255, 255, 255, 0.704);
+  z-index: 1;
+}
+
+.logo {
+  font-family: "Heebo", sans-serif;
+  font-size: 20px;
+  padding-right: 10px;
+  grid-column: 2;
+  display: grid;
+  align-self: center;
+}
+
+.logo_img {
+  width: 40%;
+  align-items: center;
+}
+
+.logo a {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .logo_img {
+    width: 70%;
+    align-items: center;
+  }
+  .logo a {
+    display: grid;
+    justify-items: left;
+    align-items: center;
+  }
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+}
+
+a:hover {
+  color: #e6536d;
+}
+
+@media (min-width: 600px) {
+  .menu_icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-self: center;
+    justify-self: end;
+  }
+
+  #header-nav {
+    grid-column: 1;
+    grid-row: 1;
+    display: grid;
+  }
+}
+
+.menu_icons {
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 180px;
+  align-self: center;
+  gap: 25px;
+  padding-right: 50px;
+}
+
+#sogefelt {
+  width: 75px;
+  padding-right: 20px;
+}
+
+.div_search {
+  display: flex;
+  gap: 5px;
+}
+
+/* ----------------menu slut------------------------------- */
