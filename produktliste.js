@@ -21,7 +21,6 @@ function vis(json) {
     const klon = template.cloneNode(true);
     klon.querySelector(".Titel").textContent = drink.navn;
     klon.querySelector(".beskrivelse").textContent = drink.beskrivelse;
-    klon.querySelector(".tag1").textContent = drink.tag1;
 
     klon.querySelector(".alkohol").textContent = drink.tag4;
 
