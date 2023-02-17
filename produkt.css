@@ -4,14 +4,9 @@
   box-sizing: border-box;
 }
 
-:root {
-  --grey: #3a3a3a;
-  --beige: #ddd4b9;
-}
-
 body {
   margin: 2rem;
-  background-color: var(--beige);
+  background-color: white;
 }
 
 html {
@@ -42,6 +37,7 @@ p {
 }
 .tilbageKnap {
   margin-top: 1rem;
+  font-family: "Heebo", sans-serif;
 }
 
 /********* Produktet ********/
