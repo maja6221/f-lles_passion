@@ -1,0 +1,22 @@
+form {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  margin-inline: 70px;
+  width: 54%;
+  gap: 1em;
+  margin-top: 18%;
+}
+
+.form-felt {
+  display: grid;
+  gap: 3px;
+}
+
+.kodeord {
+  text-decoration: underline;
+  color: grey;
+}
+.formGap {
+  gap: 1em;
+}

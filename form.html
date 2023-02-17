@@ -41,19 +41,23 @@
         </nav>
     </header>
     <main>
-        <div class="form-felt">
-            <label>
-                Fulde navn
-                <input placeholder="Navn" type="text" name="fnavn" required>
-            </label>
-        </div>
+        <form>
+            <h3>Log ind</h3>
 
-        <div class="form-felt">
-            <label>
-                E-mail
-                <input placeholder="e-mail" type="email" name="email" required>
-            </label>
-        </div>
+            <div class="form-felt">
+                <label for="navn">E-mail</label>
+                <input placeholder="fx. saramarie@gmail.com" type="text" id="navn" name="navn" required>
+            </div>
+
+            <div class="form-felt">
+                <label for="email">Kodeord</label>
+                <input placeholder="*********" type="email" id="email" name="email" required>
+            </div>
+            <p class="kodeord">Glemt kodeord?</p>
+
+            <button type="submit">Log ind</button>
+            <button type="submit">Opret bruger</button>
+        </form>
     </main>
     <footer>
 
