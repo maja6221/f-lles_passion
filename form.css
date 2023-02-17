@@ -4,10 +4,9 @@ body {
 
 form {
   display: grid;
-  grid-template-rows: 1fr 1fr;
   justify-content: center;
   margin-inline: 70px;
-  width: 54%;
+  width: 90%;
   gap: 1em;
   margin-top: 10%;
 }
@@ -15,6 +14,15 @@ form {
 .form-felt {
   display: grid;
   gap: 5px;
+}
+
+.form-felt2 {
+  justify-content: center;
+  align-self: center;
+}
+#mainGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .kodeord {
@@ -26,7 +34,7 @@ form {
 }
 
 #email {
-  padding: 8px;
+  padding: 10px;
 }
 
 #kodeord {
@@ -39,4 +47,5 @@ form {
   font-family: "Bebas Neue", cursive;
   padding: 8px;
   border-radius: 5px;
+  border: none;
 }

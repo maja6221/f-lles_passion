@@ -40,23 +40,27 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main id="mainGrid">
         <form>
             <h1>Log ind</h1>
 
+            <label for="email">E-mail</label>
             <div class="form-felt">
-                <label for="email">E-mail</label>
-                <input placeholder="fx. saramarie@gmail.com" type="email" id="email" name="email" required>
+                <input placeholder="f.eks. saramarie@gmail.com" type="email" id="email" name="email" required>
             </div>
 
+            <label for="email">Kodeord</label>
             <div class="form-felt">
-                <label for="email">Kodeord</label>
-                <input placeholder="Hej********" type="text" id="kodeord" name="kodeord" required>
+                <input placeholder="********" type="text" id="kodeord" name="kodeord" required>
             </div>
+
             <p class="kodeord">Glemt kodeord?</p>
 
             <button class="knap" type="submit">Log ind</button>
             <button class="knap" type="submit">Opret bruger</button>
+        </form>
+        <form class="form-felt2">
+            <button class="knap" type="submit">Fortsæt som gæst</button>
         </form>
     </main>
     <footer>
