@@ -5,13 +5,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mutual.css">
+    <link rel="stylesheet" href="form.css">
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Heebo&display=swap" rel="stylesheet">
+
+    <!-- menu icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Forms</title>
 </head>
 
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header id="grid_menu">
+        <div class="logo">
+            <a href="index.html"><img class="logo_img" src="logo.png" alt="logo" /></a>
+        </div>
+
+        <div class="menu_icons">
+            <div class="div_search">
+                <i id="search" class="fa fa-search"></i>
+                <input id="sogefelt" type="text" class="form-input input-group-main" placeholder="Søg" name="search"
+                    required="" autocomplete="off" />
+            </div>
+
+            <i id="kurv" class="fa fa-shopping-basket"></i>
+            <i id="user" class="fa fa-user"></i>
+        </div>
+
+        <nav id="header-nav">
+            <ul id="menu">
+                <li class="subnav">
+                    <a href="kategori.html" class="subnavbtn">Drinks</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-felt">
+            <label>
+                Fulde navn
+                <input placeholder="Navn" type="text" name="fnavn" required>
+            </label>
+        </div>
+
+        <div class="form-felt">
+            <label>
+                E-mail
+                <input placeholder="e-mail" type="email" name="email" required>
+            </label>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 
 </html>
