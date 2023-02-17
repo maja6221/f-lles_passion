@@ -1,3 +1,7 @@
+body {
+  font-family: "Bebas Neue", cursive;
+}
+
 form {
   display: grid;
   grid-template-rows: 1fr 1fr;
@@ -5,12 +9,12 @@ form {
   margin-inline: 70px;
   width: 54%;
   gap: 1em;
-  margin-top: 18%;
+  margin-top: 10%;
 }
 
 .form-felt {
   display: grid;
-  gap: 3px;
+  gap: 5px;
 }
 
 .kodeord {
@@ -19,4 +23,20 @@ form {
 }
 .formGap {
   gap: 1em;
+}
+
+#email {
+  padding: 8px;
+}
+
+#kodeord {
+  padding: 10px;
+}
+
+.knap {
+  background-color: #5a5aea;
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  padding: 8px;
+  border-radius: 5px;
 }
