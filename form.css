@@ -4,7 +4,7 @@ body {
 
 form {
   display: grid;
-  justify-content: center;
+
   margin-inline: 70px;
   width: 90%;
   gap: 1em;
@@ -17,12 +17,12 @@ form {
 }
 
 .form-felt2 {
-  justify-content: center;
   align-self: center;
 }
 #mainGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding-inline: 150px;
 }
 
 .kodeord {
