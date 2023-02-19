@@ -1,29 +1,27 @@
 .logo_overskrift {
-    font-family: bebas Neue;
-    text-align: center;
-    font-size: 60px;
-    letter-spacing: 0.5cm;
-    
+  font-family: bebas Neue;
+  text-align: center;
+  font-size: 60px;
+  letter-spacing: 0.5cm;
 }
 
-
-
 .parent {
-    position: relative;
-    top: 0;
-    left: 0;
-  }
-  .image1 {
-    position: relative;
-    top: 0;
-    left: 0;
+  position: relative;
+  top: 0;
+  left: -1em;
+  width: 101.1%;
   
-  }
-  .image2 {
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+/* .image2 {
     position: absolute;
-    top: 69em;
-    left: 18em;
-    width: 14%;
+    top: 63em;
+    left: 36em;
+    width: 12%;
   }
 
   .image3 {
@@ -35,16 +33,90 @@
 
   .image4 {
     position: absolute;
-    top: 56em;
-    left: 0em;
+    top: 46em;
+    left: 0.5em;
     width: 100%;
     
-  }
+  } */
 
-  .image5 {
+.image5 {
+  position: absolute;
+  top: 10em;
+  left: 27em;
+  width: 35%;
+}
+
+.image6 {
+  position: absolute;
+  top: 50em;
+  left: 7em;
+  width: 82%;
+}
+
+.image7 {
+  position: absolute;
+  top: em;
+  left: 0em;
+  width: 100%;
+}
+
+.image8 {
+  position: absolute;
+  top: 50em;
+  left: 0em;
+  width: 100%;
+  
+}
+
+.image9 {
+  position: absolute;
+  top: 60em;
+  left: 10em;
+  width: 20%;
+}
+.h1_index {
+  position: absolute;
+  top: 18em;
+  left: 9em;
+  font-size: 60px;
+  font-family: bebas neue;
+  letter-spacing: 0.4cm;
+}
+
+.h2_index {
+  position: absolute;
+  top: 38.5em;
+  left: 18em;
+  font-size: 30px;
+  font-family: "Bodoni Moda", serif;
+}
+
+.image10 {
+  position: absolute;
+  top: 100em;
+  left: 56em;
+  width: 20%;
+}
+
+.image11 {
+  position: absolute;
+  top: 90em;
+  left: 0em;
+  width: 100%;
+}
+
+.h1_index2 {
+  position: absolute;
+  top: 43em;
+  left: 11em;
+  font-size: 35px;
+  font-family: bebas neue;
+  letter-spacing: 0.1cm;
+}
+
+.image12 {
     position: absolute;
-    top: 10em;
-    left: 27em;
-    width: 35%;
-    
+    top: 110em;
+    left: 32em;
+    width: 20%;
   }
