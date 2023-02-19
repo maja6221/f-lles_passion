@@ -36,24 +36,27 @@ p {
   font-family: "Heebo", sans-serif;
 }
 .tilbageKnap {
-  margin-top: 1rem;
   font-family: "Heebo", sans-serif;
+}
+#titel {
+  padding-bottom: 30px;
 }
 
 /********* Produktet ********/
 .bigProduct {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  padding: 3rem;
 }
 .bigProductPicture {
-  width: 60%;
+  width: 100%;
   display: block;
   padding: 0px;
-  padding-left: 70px;
-  margin-left: 214px;
+  padding-left: 40px;
 }
 
 .bigProductText {
-  padding-top: 130px;
-  margin-left: 30px;
+  margin-left: 40px;
+  padding-right: 40px;
 }
