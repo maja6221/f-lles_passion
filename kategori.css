@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --grey: #3a3a3a;
+  --beige: #f5eedc;
+}
+
+body {
+  margin: 2rem;
+  background-color: var(--beige);
+}
+
+html {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-family: "Bodoni Moda", serif;
+  margin-top: 2rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid_opacity {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 20px;
+  gap: 10%;
+}
+
+.txt1 {
+  background-color: bisque;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  white-space: nowrap;
+  font-family: "Bebas Neue";
+}

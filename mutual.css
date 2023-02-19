@@ -135,3 +135,31 @@ a:hover {
 }
 
 /* ----------------menu slut------------------------------- */
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  box-shadow: 0 12px 28px 0 rgb(0 0 0 /30%);
+}
+
+.h1_footer {
+  font-size: 20px;
+  margin-top: 4%;
+  padding-left: 90px;
+  padding-right: 90px;
+  grid-area: 1/1;
+  margin-bottom: 12px;
+  font-family: "Bebas Neue";
+}
+
+.p_footer {
+  font-size: 15px;
+  padding: 5px;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-bottom: 8px;
+  font-family: "Bebas Neue", cursive;
+}
