@@ -4,9 +4,8 @@ body {
 
 form {
   display: grid;
-
   margin-inline: 70px;
-  width: 90%;
+  width: 65%;
   gap: 1em;
   margin-top: 10%;
 }
@@ -42,10 +41,11 @@ form {
 }
 
 .knap {
-  background-color: #5a5aea;
+  background-color: #e6536d;
   color: white;
   font-family: "Bebas Neue", cursive;
   padding: 8px;
   border-radius: 5px;
   border: none;
+  font-size: unset;
 }
