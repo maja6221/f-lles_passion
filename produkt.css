@@ -23,26 +23,27 @@ img {
 }
 
 h1 {
-  font-family: "Heebo", sans-serif;
+  font-family: "Bodoni Moda", serif;
   margin-top: 2rem;
 }
 
 h3 {
-  font-family: "Heebo", sans-serif;
+  font-family: "Bodoni Moda", serif;
   font-size: x-large;
   padding: 20px;
 }
 
 p {
-  font-family: "Heebo", sans-serif;
+  font-family: "Bodoni Moda", serif;
   padding: 20px;
 }
 .tilbageKnap {
-  font-family: "Heebo", sans-serif;
+  font-family: "Bodoni Moda", serif;
   padding: 20px;
 }
-#titel {
-  padding-bottom: 30px;
+
+.overskrift_produkt {
+  text-align: center;
 }
 
 /********* Produktet ********/
@@ -65,6 +66,6 @@ p {
 }
 
 .card2 {
-  background: rgb(228, 197, 156);
+  background: rgb(236, 225, 210);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
