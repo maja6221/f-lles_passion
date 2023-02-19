@@ -1,3 +1,19 @@
+body {
+  background-color: #ffffff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  /* display: block; */
+}
+
+
 /*---------------------------------menu-----------------------------*/
 
 
@@ -53,6 +69,7 @@ header {
 .logo_img {
   width: 40%;
   align-items: center;
+  padding: 20px;
 }
 
 .logo a {
