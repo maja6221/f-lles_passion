@@ -5,3 +5,46 @@
     letter-spacing: 0.5cm;
     
 }
+
+
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+  
+  }
+  .image2 {
+    position: absolute;
+    top: 69em;
+    left: 18em;
+    width: 14%;
+  }
+
+  .image3 {
+    position: absolute;
+    top: 50em;
+    left: 3em;
+    width: 24%;
+  }
+
+  .image4 {
+    position: absolute;
+    top: 56em;
+    left: 0em;
+    width: 100%;
+    
+  }
+
+  .image5 {
+    position: absolute;
+    top: 10em;
+    left: 27em;
+    width: 35%;
+    
+  }
