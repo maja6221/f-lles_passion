@@ -1,0 +1,51 @@
+body {
+  font-family: "Bebas Neue", cursive;
+}
+
+form {
+  display: grid;
+
+  margin-inline: 70px;
+  width: 90%;
+  gap: 1em;
+  margin-top: 10%;
+}
+
+.form-felt {
+  display: grid;
+  gap: 5px;
+}
+
+.form-felt2 {
+  align-self: center;
+}
+#mainGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-inline: 150px;
+}
+
+.kodeord {
+  text-decoration: underline;
+  color: grey;
+}
+.formGap {
+  gap: 1em;
+}
+
+#email {
+  padding: 10px;
+}
+
+#kodeord {
+  padding: 10px;
+}
+
+.knap {
+  background-color: #5a5aea;
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}

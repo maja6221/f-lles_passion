@@ -5,27 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="produkt.css">
     <link rel="stylesheet" href="mutual.css">
+    <link rel="stylesheet" href="form.css">
     <!-- font -->
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Heebo&display=swap" rel="stylesheet">
 
     <!-- menu icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Produkt</title>
+    <title>Forms</title>
 </head>
 
 <body>
     <header id="grid_menu">
         <div class="logo">
-            <a href="index.html"><img class="logo_img" src="logo.png" alt="logo"></a>
+            <a href="index.html"><img class="logo_img" src="logo.png" alt="logo" /></a>
         </div>
 
         <div class="menu_icons">
             <div class="div_search">
                 <i id="search" class="fa fa-search"></i>
                 <input id="sogefelt" type="text" class="form-input input-group-main" placeholder="Søg" name="search"
-                    required="" autocomplete="off">
+                    required="" autocomplete="off" />
             </div>
 
             <i id="kurv" class="fa fa-shopping-basket"></i>
@@ -40,26 +40,33 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <h1>COCKTAILS</h1>
-        <article class="bigProduct">
-            <div class="bigProductPicture">
-                <img id="billede" src="billeder/mojito2.jpg" alt="mojito">
-            </div>
-            <div class="bigProductText card2">
-                <h3 id="titel">MOJITO</h3>
-                <p id="beskrivelse">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi deserunt nulla
-                    quisquam quis, tempore dolor enim culpa nemo odit sed repellat molestias nisi fugit dolorem iste ut
-                    at! Tempora, nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, aperiam nihil.
-                    Omnis, vero exercitationem. Aliquam maiores iste facere sequi cum beatae aspernatur, voluptatem
-                    nostrum odit iure excepturi ea similique aliquid.</p>
-                <a class="tilbageKnap" href=" produktliste.html">Tilbage</a>
-            </div>
-        </article>
+    <main id="mainGrid">
+        <form>
+            <h1>Log ind</h1>
 
+            <label for="email">E-mail</label>
+            <div class="form-felt">
+                <input placeholder="f.eks. saramarie@gmail.com" type="email" id="email" name="email" required>
+            </div>
+
+            <label for="email">Kodeord</label>
+            <div class="form-felt">
+                <input placeholder="********" type="text" id="kodeord" name="kodeord" required>
+            </div>
+
+            <p class="kodeord">Glemt kodeord?</p>
+
+            <button class="knap" type="submit">Log ind</button>
+            <button class="knap" type="submit">Opret bruger</button>
+        </form>
+        <form class="form-felt2">
+            <label for="email">Gæst</label>
+            <button class="knap" type="submit">Fortsæt som gæst</button>
+        </form>
     </main>
-    <footer></footer>
-    <script src="produkt.js"></script>
+    <footer>
+
+    </footer>
 </body>
 
 </html>

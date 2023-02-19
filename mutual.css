@@ -15,7 +15,12 @@ img {
 
 
 /*---------------------------------menu-----------------------------*/
+:root {
+  --brun: #deb887;
+  --beige: #f5eedc;
+}
 
+/*---------------------------------menu-----------------------------*/
 
 ul#menu li {
   font-size: 17px;
@@ -38,8 +43,6 @@ ul#menu li {
 .subnavbtn {
   color: black;
   font-family: "Bebas Neue", cursive;
-  
-  
 }
 
 header {
@@ -62,9 +65,7 @@ header {
   grid-column: 2;
   display: grid;
   align-self: center;
-
 }
-
 
 .logo_img {
   width: 40%;
@@ -100,10 +101,7 @@ a:hover {
   color: #e6536d;
 }
 
-
-
 @media (min-width: 600px) {
-
   .menu_icons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -122,10 +120,9 @@ a:hover {
   display: flex;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   width: 180px;
-  align-self: center ;
+  align-self: center;
   gap: 25px;
   padding-right: 50px;
-  
 }
 
 #sogefelt {
