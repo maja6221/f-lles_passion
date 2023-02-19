@@ -30,13 +30,16 @@ h1 {
 h3 {
   font-family: "Heebo", sans-serif;
   font-size: x-large;
+  padding: 20px;
 }
 
 p {
   font-family: "Heebo", sans-serif;
+  padding: 20px;
 }
 .tilbageKnap {
   font-family: "Heebo", sans-serif;
+  padding: 20px;
 }
 #titel {
   padding-bottom: 30px;
@@ -59,4 +62,9 @@ p {
 .bigProductText {
   margin-left: 40px;
   padding-right: 40px;
+}
+
+.card2 {
+  background: rgb(228, 197, 156);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
