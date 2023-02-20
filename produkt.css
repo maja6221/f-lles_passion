@@ -69,3 +69,33 @@ p {
   background: bisque;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+/*********** mobile version **********/
+@media (max-width: 600px) {
+  img {
+    padding: 10px;
+  }
+  .overskrift_produkt {
+    justify-content: center;
+  }
+
+  .bigProduct {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  #billede {
+    position: absolute;
+    top: 10em;
+    left: 2em;
+    width: 81%;
+  }
+
+  .card2 {
+    position: absolute;
+    top: 25em;
+    left: -1em;
+    width: 87%;
+    bottom: -6em;
+  }
+}

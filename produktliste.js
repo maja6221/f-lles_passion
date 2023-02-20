@@ -25,6 +25,7 @@ function vis(json) {
     klon.querySelector(".alkohol").textContent = drink.tag4;
 
     klon.querySelector(".billede").src = "billeder/" + drink.Billede;
+    klon.querySelector(".link").href = "produkt.html?id=" + drink._id;
 
     main.appendChild(klon);
   });
