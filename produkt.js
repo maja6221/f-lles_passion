@@ -1,10 +1,10 @@
 const urlParams = new URLSearchParams(window.location.search);
 
-const id = urlParams.get("id");
-console.log(id);
-const url = `https://personliste-ddf3.restdb.io/rest/drinks${id}`;
+const id = urlParams.get("_id");
+console.log(_id);
+const url = `https://personliste-ddf3.restdb.io/rest/drinks${_id}`;
 
-const imagePath = `https://personliste-ddf3.restdb.io/rest/drinks${id}`;
+const imagePath = `https://personliste-ddf3.restdb.io/rest/drinks${_id}`;
 
 function hentData() {
   fetch(url)
