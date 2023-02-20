@@ -118,7 +118,7 @@ img {
 
   .container {
       position: relative;
-      width: 60%;
+      width: 100%;
       padding-inline: 30px;
       padding-bottom: 30px;
      justify-self: center;
