@@ -21,14 +21,14 @@ img {
 
 /*---------------------------------menu-----------------------------*/
 
-ul#menu li {
+li {
   font-size: 17px;
   list-style: none;
   font-family: "Bebas Neue", cursive;
 }
 
 @media (min-width: 600px) {
-  ul#menu li {
+  li {
     font-size: 30px;
   }
 
@@ -53,7 +53,7 @@ header {
   justify-content: space-between;
   align-items: baseline;
   padding-left: 10px;
-  background-color: rgba(255, 255, 255, 0.704);
+  background-color: rgb(255, 255, 255);
   z-index: 1;
 }
 
@@ -135,6 +135,8 @@ a:hover {
 }
 
 /* ----------------menu slut------------------------------- */
+
+/* ----------------footer------------------------------- */
 
 .footer {
   display: grid;
