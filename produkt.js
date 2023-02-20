@@ -17,7 +17,7 @@ function visProdukt(produkt) {
   document.querySelector("#titel").textContent = drink.navn;
   document.querySelector("#beskrivelse").textContent = drink.beskrivelse;
   document.querySelector("#alkohol").textContent = drink.tag4;
-  document.querySelector("#billede").src = "billeder/" + drink.Billede;
+  document.querySelector("#Billede").src = "billeder/" + drink.Billede;
   document.querySelector("img").src = imagePath;
 }
 
