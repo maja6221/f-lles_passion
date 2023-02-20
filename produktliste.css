@@ -51,7 +51,9 @@ a {
 h2 {
   padding-bottom: 1rem;
   text-transform: uppercase;
-  font-size: 1.7rem;
+  font-size: 1.4rem;
+  white-space: nowrap;
+  letter-spacing: 1px;
 }
 
 p {
@@ -66,7 +68,7 @@ p {
 }
 
 .card {
-  padding: 0.5rem 1rem 1rem 1rem;
+  padding: 0.5rem 1rem 0rem 1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -110,5 +112,8 @@ p {
 
   .beskrivelse {
     font-size: 0.8rem;
+  }
+  article {
+    height: 100%;
   }
 }
