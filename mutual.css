@@ -165,3 +165,12 @@ a:hover {
   padding-bottom: 8px;
   font-family: "Bebas Neue", cursive;
 }
+
+@media (min-width: 600px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-self: center;
+    justify-self: end;
+  }
+}
