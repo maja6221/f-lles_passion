@@ -8,38 +8,77 @@
     <link rel="stylesheet" href="mutual.css">
     <link rel="stylesheet" href="kategori.css">
     <title>Katogori</title>
+
+      <!-- font -->
+      <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Heebo&display=swap" rel="stylesheet" />
+
+      <!-- menu icons -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
 
 <body>
+
+    <header id="grid_menu">
+        <div class="logo">
+          <!-- <a href="index.html"><h1 class="logo_overskrift">TJIRS</h1></a> -->
+  
+          <a href="index.html"><img class="logo_img" src="glas2.png" alt="logo" /></a>
+        </div>
+  
+        <div class="menu_icons">
+          <div class="div_search">
+            <i id="search" class="fa fa-search"></i>
+            <input id="sogefelt" type="text" class="form-input input-group-main" placeholder="Søg" name="search" required="" autocomplete="off" />
+          </div>
+  
+          <i id="kurv" class="fa fa-heart"></i>
+          <i id="user" class="fa fa-user"></i>
+        </div>
+  
+        <nav id="header-nav">
+          <ul id="menu">
+            <li class="subnav">
+              <a href="kategori.html" class="subnavbtn">Drinks</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
     <main>
-        <h1>Katogori</h1>
-        <section>
-            <div class="grid_opacity">
-                <div class="img_grid1">
-                    <a href="produktliste.html"><img class="grid1" src="drinks/D1.png" alt="Tequila" /></a>
-                    <h1 class="txt1">Tequila</h1>
-                    <a class="txt1" href="produktliste.html">Tequila</a>
-                </div>
-
-                <div class="img_grid1">
-                    <a href="produktliste.html"><img class="grid1" src="drinks/D5.png" alt="Vodka" /></a>
-                    <h1 class="txt1">Vodka</h1>
-                    <a class="txt1" href="produktliste.html">Vodka</a>
-                </div>
-
-                <div class="img_grid1">
-                    <a href="produktliste.html"><img class="grid1" src="drinks/D3.png" alt="Gin" /></a>
-                    <h1 class="txt1">Gin</h1>
-                    <a class="txt1" href="produktliste.html">Gin</a>
-                </div>
-
-                <div class="img_grid1">
-                    <a href="produktliste.html"><img class="grid1" src="drinks/D4.png" alt="Rom" /></a>
-                    <h1 class="txt1">Rom</h1>
-                    <a class="txt1" href="produktliste.html">Rom</a>
-                </div>
+        <h1>Kategori</h1>
+        <section class="grid_opacity">
+        
+            <div class="container">
+              <img src="D6.png" alt="Avatar" class="image" style="width:100%">
+              <div class="middle">
+                <div class="text"><a class="txt1" href="produktliste.html">Se mere</a></div>
+              </div>
+              <p class="p_temaer">Tequila</p>
             </div>
-        </section>
+            <div class="container">
+              <img src="D7.png" alt="Avatar" class="image" style="width:100%">
+              <div class="middle">
+                <div class="text"><a class="txt1" href="produktliste.html">Se mere</a></div>
+              </div>
+              <p class="p_temaer">Gin</p>
+            </div>
+            <div id="cafe-container" class="container">
+              <img src="D8.png" alt="Avatar" class="image" style="width:100%">
+              <div class="middle">
+                <div class="text"><a class="txt1" href="produktliste.html">Se mere</a></div>
+              </div>
+              <p class="p_temaer">Rom</p>
+            </div>
+            <div class="container">
+              <img src="D9.png" alt="Avatar" class="image" style="width:100%">
+              <div class="middle">
+                <div class="text"><a class="txt1" href="produktliste.html">Se mere</a></div>
+              </div>
+              <p class="p_temaer">Vodka</p>
+            </div>
+            
+            </div>
+          </section>
+    
     </main>
     <footer class="footer">
         <div>

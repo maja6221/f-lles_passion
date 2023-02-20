@@ -10,15 +10,15 @@
 }
 
 body {
-  margin: 2rem;
-  background-color: var(--beige);
+  
+  background-color: #DDD4B9;
 }
-
+/* 
 html {
   max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 h1 {
   font-family: "Bodoni Moda", serif;
@@ -33,18 +33,107 @@ img {
   margin-right: auto;
 }
 
-.grid_opacity {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding: 20px;
-  gap: 10%;
+
+/* main {
+  background-color: #DDD4B9;
+} */
+
+
+/* -------------------bokse------------------------ */
+
+.container {
+  position: relative;
+  width: 100%;
+  padding-inline: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.txt1 {
-  background-color: bisque;
-  color: white;
+
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text .txt1{
+  background-color: white ;
+  color: #E6536D;
   font-size: 16px;
   padding: 16px 32px;
   white-space: nowrap;
-  font-family: "Bebas Neue";
+  font-family: "Bebas Neue", cursive;
+  text-decoration: none;
+}
+
+.grid_opacity {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  gap: 10px;
+  
+}
+
+
+.txt1:hover {
+  color: pink;
+}
+
+
+  
+
+
+
+@media (min-width: 600px) {
+  .grid_opacity {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px;
+    
+
+  }
+
+  .container {
+      position: relative;
+      width: 60%;
+      padding-inline: 30px;
+      padding-bottom: 30px;
+     justify-self: center;
+    }
+    
+    
+ 
+}
+
+/* -------------------bokse slut------------------------ */
+
+
+.p_temaer {
+  font-family: "bebas neue";
+  color: black;
+  text-align: center;
+  font-size: 25px;
 }

@@ -21,14 +21,14 @@ img {
 
 /*---------------------------------menu-----------------------------*/
 
-ul#menu li {
+li {
   font-size: 17px;
   list-style: none;
   font-family: "Bebas Neue", cursive;
 }
 
 @media (min-width: 600px) {
-  ul#menu li {
+  li {
     font-size: 30px;
   }
 
@@ -135,6 +135,8 @@ a:hover {
 }
 
 /* ----------------menu slut------------------------------- */
+
+/* ----------------footer------------------------------- */
 
 .footer {
   display: grid;
