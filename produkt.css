@@ -40,6 +40,10 @@ p {
   font-family: "Heebo", sans-serif;
   padding: 20px;
 }
+
+.opskrift_liste {
+  font-family: "Heebo", sans-serif;
+}
 .tilbageKnap {
   font-family: "Bebas Neue", cursive;
   padding: 20px;
