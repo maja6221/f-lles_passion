@@ -12,7 +12,7 @@ main {
 }
 
 body {
-  background-color: #ddd4b9;
+  background-color: var(--beige);
 }
 
 #billede {
@@ -52,9 +52,29 @@ li {
   padding-left: 20px;
 }
 
+#knap {
+  padding: 0.5rem;
+  width: fit-content;
+  background-color: #f5e4bb;
+  font-size: 0.7rem;
+  width: 100%;
+  text-align: center;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.tilbageKnap:hover {
+  color: #e6536d;
+  background-color: white;
+}
+
 .tilbageKnap {
   font-family: "Bebas Neue", cursive;
-  padding: 20px;
+  padding: 0.5rem;
+  background-color: #f5e4bb;
+  font-size: 0.7rem;
+  border-radius: 5px;
 }
 
 .overskrift_produkt {
@@ -81,7 +101,7 @@ li {
 }
 
 .card2 {
-  background: #cabd96;
+  background: #e4c59c;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
