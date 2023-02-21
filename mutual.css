@@ -37,16 +37,12 @@ li {
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
   }
-
 }
 
 .subnavbtn {
   color: black;
   font-family: "Bebas Neue", cursive;
-  
 }
-
-
 
 header {
   position: sticky;
@@ -87,7 +83,6 @@ header {
   .logo_img {
     width: 70%;
     align-items: center;
-   
   }
   .logo a {
     display: grid;
@@ -100,8 +95,7 @@ a {
   text-decoration: none;
   font-weight: 700;
   color: black;
-
-  }
+}
 
 a:hover {
   color: #e6536d;
@@ -119,6 +113,13 @@ a:hover {
     grid-column: 1;
     grid-row: 1;
     display: grid;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-self: center;
+    justify-self: end;
   }
 }
 
@@ -162,6 +163,7 @@ a:hover {
   grid-area: 1/1;
   margin-bottom: 12px;
   font-family: "Bebas Neue";
+  color: #e6536d;
 }
 
 .p_footer {
@@ -171,13 +173,4 @@ a:hover {
   padding-right: 90px;
   padding-bottom: 8px;
   font-family: "Bebas Neue", cursive;
-}
-
-@media (max-width: 600px) {
-  .footer {
-    display: grid;
-    grid-template-columns: 1fr;
-    align-self: center;
-    justify-self: end;
-  }
 }
