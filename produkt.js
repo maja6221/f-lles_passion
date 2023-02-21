@@ -3,11 +3,11 @@ console.log("urlParams", urlParams);
 
 const _id = urlParams.get("_id");
 console.log("id", _id);
-const url = `https://personliste-ddf3.restdb.io/rest/drinks/${_id}`;
+const url = `https://personliste-ddf3.restdb.io/rest/drinks${_id}`;
 
 console.log("produkt.js");
 
-const imagePath = `https://personliste-ddf3.restdb.io/rest/drinks/${_id}.jpg`;
+const imagePath = `https://personliste-ddf3.restdb.io/rest/drinks${_id}.jpg`;
 
 function hentData() {
   fetch(url)
