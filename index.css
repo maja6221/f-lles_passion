@@ -1,5 +1,5 @@
 
-
+/* nav link i menuen */
 .logo_overskrift {
   font-family: bebas Neue;
   text-align: center;
@@ -7,6 +7,7 @@
   letter-spacing: 0.5cm;
 }
 
+/* den div der indeholder alle billeder */
 .parent {
   position: relative;
   top: 0;
@@ -14,32 +15,14 @@
   width: 101.1%;
   
 }
+
+/* billeder og tekst på forsiden, stylet med position absolute og relative */
 .image1 {
   position: relative;
   top: 0;
   left: 0;
 }
-/* .image2 {
-    position: absolute;
-    top: 63em;
-    left: 36em;
-    width: 12%;
-  }
 
-  .image3 {
-    position: absolute;
-    top: 50em;
-    left: 3em;
-    width: 24%;
-  }
-
-  .image4 {
-    position: absolute;
-    top: 46em;
-    left: 0.5em;
-    width: 100%;
-    
-  } */
 
 .image5 {
   position: absolute;
@@ -133,6 +116,7 @@
 
  
 
+  /* link til produktliseten */
 
   .link_index {
     position: absolute;
@@ -144,12 +128,13 @@
   }
 
 
+  /* responsivt design */
 
   @media (max-width: 600px) {
     .logo_overskrift {
         font-family: bebas Neue;
         text-align: center;
-        font-size: 60px;
+        font-size: 30px;
         letter-spacing: 0.5cm;
       }
       
@@ -165,32 +150,11 @@
         top: 0;
         left: 0;
       }
-      /* .image2 {
-          position: absolute;
-          top: 63em;
-          left: 36em;
-          width: 12%;
-        }
-      
-        .image3 {
-          position: absolute;
-          top: 50em;
-          left: 3em;
-          width: 24%;
-        }
-      
-        .image4 {
-          position: absolute;
-          top: 46em;
-          left: 0.5em;
-          width: 100%;
-          
-        } */
       
       .image5 {
         position: absolute;
-        top: 4em;
-        left: 9em;
+        top: 3em;
+        left: 6em;
         width: 55%;
       }
       
@@ -215,47 +179,47 @@
       
       .image9 {
         position: absolute;
-        top: 19em;
-        left: 4em;
+        top: 17em;
+        left: 2em;
         width: 30%;
       }
       .h1_index {
         position: absolute;
-        top: 9em;
-        left: 4.8em;
-        font-size: 40px;
+        top: 17em;
+        left: 6.8em;
+        font-size: 20px;
         font-family: bebas neue;
         letter-spacing: 0.1cm;
       }
       
       .h2_index {
         position: absolute;
-        top: 17.5em;
-        left: 9.5em;
-        font-size: 23px;
+        top: 21.3em;
+        left: 8em;
+        font-size: 17px;
         font-family: "Bodoni Moda", serif;
     
       }
       
       .image10 {
         position: absolute;
-        top: 39em;
-        left: 18em;
+        top: 30em;
+        left: 12em;
         width: 23%;
       }
       
       .image11 {
         position: absolute;
-        top: 34em;
+        top: 30em;
         left: 0em;
        
       }
       
       .h1_index2 {
         position: absolute;
-        top: 18em;
-        left: 4em;
-        font-size: 30px;
+        top: 25em;
+        left: 3em;
+        font-size: 20px;
         font-family: bebas neue;
         letter-spacing: 0.1cm;
         width: 95px;
@@ -264,23 +228,23 @@
       
       .image12 {
           position: absolute;
-          top: 38em;
-          left: 22em;
+          top: 28em;
+          left: 16em;
           width: 28%;
         }
       
         .image13 {
           position: absolute;
-          top: 50em;
+          top: 40em;
           left: 0em;
           width: 100%;
         }
 
         .link_index {
             position: absolute;
-            top: 27em;
-            left: 12.5em;
-           font-size: 25px;
+            top: 29em;
+            left: 11.8em;
+           font-size: 18px;
            font-family: bebas neue;
            text-decoration: underline;
           }
