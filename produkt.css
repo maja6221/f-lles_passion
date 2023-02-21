@@ -12,7 +12,7 @@ main {
 }
 
 body {
-  background-color: #ddd4b9;
+  background-color: var(--beige);
 }
 
 #billede {
@@ -101,7 +101,7 @@ li {
 }
 
 .card2 {
-  background: #cabd96;
+  background: rgb(228, 197, 156);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
