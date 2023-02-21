@@ -142,3 +142,7 @@ img {
   text-align: center;
   font-size: 25px;
 }
+
+.p_temaer:hover {
+  color: #E6536D;
+}
