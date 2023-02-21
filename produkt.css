@@ -29,11 +29,18 @@ h1 {
   font-family: "Bebas Neue", cursive;
   margin-top: 2rem;
 }
+.opskrift_overskrift {
+  font-family: "Bebas Neue", cursive;
+  font-size: x-large;
+  padding-top: 20px;
+  padding-left: 20px;
+}
 
 h3 {
   font-family: "Bebas Neue", cursive;
-  font-size: x-large;
+  font-size: xx-large;
   padding: 20px;
+  color: #e6536d;
 }
 
 p {
@@ -44,8 +51,9 @@ p {
 li {
   font-family: "Heebo", sans-serif;
   list-style-type: none;
-  padding-left: 10px;
+  padding-left: 20px;
 }
+
 .tilbageKnap {
   font-family: "Bebas Neue", cursive;
   padding: 20px;
