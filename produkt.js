@@ -25,7 +25,7 @@ function visProdukt(drink) {
   console.log(drink);
   document.querySelector("#titel").textContent = drink.navn;
   document.querySelector("#opskrift").textContent = drink.opskrift;
-  document.querySelector("#alkohol").textContent = drink.tag4;
+  //document.querySelector("#alkohol").textContent = drink.tag4;
   document.querySelector("#amount_1").textContent = drink.amount_1;
   document.querySelector("#ingrediens_1").textContent = drink.ingrediens_1;
   document.querySelector("#amount_2").textContent = drink.amount_2;
