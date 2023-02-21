@@ -180,5 +180,14 @@ a:hover {
   }
 }
 
-/* ---------------form-------------- */
 
+
+
+.sociale_medier {
+  width: 40%;
+  display: flex;
+  gap: 15%;
+  padding-top: 20px;
+  margin-left: 5.5em;
+  
+}
