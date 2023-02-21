@@ -1,5 +1,5 @@
 main {
-  background-color:  #ddd4b9;
+  background-color: var(--beige);
 }
 
 /* nav link i menuen */
@@ -240,5 +240,5 @@ main {
 }
 
 footer {
-  background-color: #ddd4b9;
+  background-color: var(--beige);
 }

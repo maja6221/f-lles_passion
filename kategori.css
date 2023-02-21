@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: #ddd4b9;
+  background-color: var(--beige);
 }
 /* 
 html {
@@ -159,7 +159,7 @@ img {
   cursor: pointer;
   padding-inline: 40px;
   position: relative;
-  background-color: #cabd96;
+  background-color: #deb887;
 
 }
 
