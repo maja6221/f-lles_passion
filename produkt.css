@@ -51,8 +51,9 @@ p {
 li {
   font-family: "Heebo", sans-serif;
   list-style-type: none;
-  padding-left: 10px;
+  padding-left: 20px;
 }
+
 .tilbageKnap {
   font-family: "Bebas Neue", cursive;
   padding: 20px;
