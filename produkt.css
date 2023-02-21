@@ -23,22 +23,22 @@ img {
 }
 
 h1 {
-  font-family: "Bodoni Moda", serif;
+  font-family: "Bebas Neue", cursive;
   margin-top: 2rem;
 }
 
 h3 {
-  font-family: "Bodoni Moda", serif;
+  font-family: "Bebas Neue", cursive;
   font-size: x-large;
   padding: 20px;
 }
 
 p {
-  font-family: "Bodoni Moda", serif;
+  font-family: "Heebo", sans-serif;
   padding: 20px;
 }
 .tilbageKnap {
-  font-family: "Bodoni Moda", serif;
+  font-family: "Bebas Neue", cursive;
   padding: 20px;
 }
 
