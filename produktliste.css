@@ -97,6 +97,11 @@ p {
   border-radius: 5px;
 }
 
+#knap:hover {
+  color: #e6536d;
+  background-color: white;
+}
+
 /************************************************* Media *************************************************/
 
 @media (min-width: 600px) {
