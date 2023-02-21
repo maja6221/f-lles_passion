@@ -138,3 +138,33 @@ img {
 .p_temaer:hover {
   color: #e6536d;
 }
+
+
+
+.alle_drinks {
+ display: flex;
+ justify-content: space-between;
+ padding-right: 50px;
+ padding-top: 30px;
+
+ 
+}
+
+.knap_drinks {
+  border: none;
+  color: black;
+  font-family: bebas neue;
+  border-radius: 20px;
+  font-size: 25px;
+  cursor: pointer;
+  padding-inline: 40px;
+  position: relative;
+  background-color: #cabd96;
+
+}
+
+.knap_drinks:hover {
+  color: #e6536d;
+  background-color: white;
+
+}
