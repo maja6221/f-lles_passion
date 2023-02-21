@@ -24,10 +24,16 @@ form {
   padding-inline: 150px;
 }
 
-.kodeord {
+.glemt_kodeord {
   text-decoration: underline;
   color: grey;
+  font-size: 12px;
 }
+
+.glemt_kodeord:hover {
+  color: #e6536d;
+}
+
 .formGap {
   gap: 1em;
 }
@@ -36,12 +42,21 @@ form {
   padding: 10px;
 }
 
+.email {
+  color: #e6536d;
+}
+
+
 #kodeord {
   padding: 10px;
 }
 
-.h1_login {
+.kodeord1 {
   color: #e6536d;
+}
+
+.h1_login {
+  color: black;
 }
 
 .gæst {
