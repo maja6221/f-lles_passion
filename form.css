@@ -40,12 +40,28 @@ form {
   padding: 10px;
 }
 
+.h1_login {
+  color: #e6536d;
+}
+
+.gæst {
+  color: #e6536d;
+}
 .knap {
-  background-color: bisque;
+  background-color: #cabd96;
   color: black;
   font-family: "Bebas Neue", cursive;
   padding: 8px;
   border-radius: 5px;
   border: none;
   font-size: unset;
+}
+
+.knap:hover {
+  color: #e6536d;
+  background-color: white;
+}
+
+.body_form {
+  background-color: #DDD4B9;
 }
