@@ -43,6 +43,8 @@ p {
 
 li {
   font-family: "Heebo", sans-serif;
+  list-style-type: none;
+  padding-left: 10px;
 }
 .tilbageKnap {
   font-family: "Bebas Neue", cursive;
