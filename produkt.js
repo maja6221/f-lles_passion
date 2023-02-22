@@ -44,6 +44,7 @@ function visProdukt(drink) {
 
   document.querySelector("#billede").src = "billeder/" + drink.Billede;
   document.querySelector("img").src = imagePath;
+  
 }
 
 hentData();
