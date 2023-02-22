@@ -192,3 +192,37 @@ a:hover {
   pointer-events: fill;
 }
 
+
+
+/* Brødkrummetekst */
+.body_produkt .main_produkt .breadcrumbs, .body_produkt  {
+  grid-column: 1/-1;
+}
+
+.breadcrumbs {
+  display: flex;
+  font-size: 0.8rem;
+  list-style-type: none;
+  
+}
+
+.bread1 {
+  text-decoration: underline;
+}
+
+.breadcrumbs .li_bread::after {
+  content: ">";
+  font-size: 0.6rem;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 10px;
+  transition: all 0.3s;
+}
+
+ol {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 1.563rem;
+  list-style: decimal outside;
+}
