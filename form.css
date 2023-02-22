@@ -22,6 +22,7 @@ form {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-inline: 150px;
+  padding-bottom: 15em;
 }
 
 .glemt_kodeord {
