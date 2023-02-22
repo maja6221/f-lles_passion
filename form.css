@@ -63,7 +63,7 @@ form {
   color: #e6536d;
 }
 .knap {
-  background-color: #cabd96;
+  background-color: #deb887;
   color: black;
   font-family: "Bebas Neue", cursive;
   padding: 8px;
@@ -78,5 +78,5 @@ form {
 }
 
 .body_form {
-  background-color: #DDD4B9;
+  background-color: var(--beige);
 }
