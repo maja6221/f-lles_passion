@@ -21,6 +21,7 @@ function hentData() {
     .then(visProdukt);
 }
 
+// Data hentes fra restDB
 function visProdukt(drink) {
   console.log(drink);
   document.querySelector("#titel").textContent = drink.navn;
@@ -42,9 +43,9 @@ function visProdukt(drink) {
   document.querySelector("#ingrediens_7").textContent = drink.ingrediens_7;
   document.querySelector("#ingrediens_8").textContent = drink.ingrediens_8;
 
+  // Billeder hentes fra restDB
   document.querySelector("#billede").src = "billeder/" + drink.Billede;
   document.querySelector("img").src = imagePath;
-  
 }
 
 hentData();
