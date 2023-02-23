@@ -28,7 +28,7 @@ h1 {
   margin-top: 2rem;
 }
 .opskrift_overskrift {
-  font-family: "Prompt", sans-serif;
+  font-family: bebas neue;
   font-size: x-large;
   padding-top: 20px;
   padding-left: 20px;
@@ -72,7 +72,7 @@ li {
 }
 
 .tilbageKnap {
-  font-family: "Prompt", sans-serif;
+  font-family: bebas neue;
   padding: 0.5rem;
   background-color: #f5e4bb;
   font-size: 1rem;
