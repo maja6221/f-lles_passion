@@ -148,7 +148,7 @@ main {
   padding-top: 30px;
 }
 
-.knap_drinks {
+#knap_drinks {
   border: none;
   color: black;
   font-family: "Prompt", sans-serif;
@@ -159,9 +159,11 @@ main {
   padding-inline: 40px;
   position: relative;
   background-color: #deb887;
+  align-self: center;
+  padding: 20px;
 }
 
-.knap_drinks:hover {
+#knap_drinks:hover {
   color: #e6536d;
   background-color: white;
 }
