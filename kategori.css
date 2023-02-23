@@ -20,7 +20,7 @@ html {
 } */
 
 h1 {
-  font-family: "Bodoni Moda", serif;
+  font-family: "Prompt", sans-serif;
   margin-top: 2rem;
 }
 
@@ -33,13 +33,14 @@ img {
 }
 
 main {
- padding-bottom: 8em;
+  padding-bottom: 8em;
 }
 
 .h1_kategori {
-  font-family: bebas neue;
+  font-family: "bebas neue";
   font-size: 50px;
   padding-left: 60px;
+  letter-spacing: 2px;
 }
 
 /* -------------------bokse------------------------ */
@@ -92,7 +93,7 @@ main {
   font-size: 16px;
   padding: 16px 32px;
   white-space: nowrap;
-  font-family: "Bebas Neue", cursive;
+  font-family: "Prompt", sans-serif;
   text-decoration: none;
 }
 
@@ -129,43 +130,38 @@ main {
 /* -------------------bokse slut------------------------ */
 /* Tekst på kategori */
 .p_temaer {
-  font-family: "bebas neue";
+  font-family: "Prompt", sans-serif;
   color: black;
   text-align: center;
   font-size: 25px;
+  text-transform: uppercase;
 }
 
 .p_temaer:hover {
   color: #e6536d;
 }
 
-
-
 .alle_drinks {
- display: flex;
- justify-content: space-between;
- padding-right: 50px;
- padding-top: 30px;
-
- 
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+  padding-top: 30px;
 }
 
 .knap_drinks {
   border: none;
   color: black;
-  font-family: bebas neue;
+  font-family: "Prompt", sans-serif;
+  text-transform: uppercase;
   border-radius: 20px;
   font-size: 25px;
   cursor: pointer;
   padding-inline: 40px;
   position: relative;
   background-color: #deb887;
-  
-
 }
 
 .knap_drinks:hover {
   color: #e6536d;
   background-color: white;
-
 }

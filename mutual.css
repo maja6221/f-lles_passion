@@ -114,8 +114,6 @@ a:hover {
     grid-row: 1;
     display: grid;
   }
-
-
 }
 
 .menu_icons {
@@ -167,9 +165,8 @@ a:hover {
   padding-left: 90px;
   padding-right: 90px;
   padding-bottom: 8px;
-  font-family: "Bebas Neue", cursive;
+  font-family: "Prompt", sans-serif;
 }
-
 
 @media (min-width: 600px) {
   .footer {
@@ -180,9 +177,6 @@ a:hover {
   }
 }
 
-
-
-
 .sociale_medier {
   width: 40%;
   display: flex;
@@ -192,10 +186,9 @@ a:hover {
   pointer-events: fill;
 }
 
-
-
 /* Brødkrummetekst */
-.body_produkt .main_produkt .breadcrumbs, .body_produkt  {
+.body_produkt .main_produkt .breadcrumbs,
+.body_produkt {
   grid-column: 1/-1;
 }
 
@@ -203,7 +196,6 @@ a:hover {
   display: flex;
   font-size: 0.8rem;
   list-style-type: none;
-  
 }
 
 .bread1 {

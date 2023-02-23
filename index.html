@@ -1,127 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="noindex" />
-    <title>Forside</title>
-    <!-- stylesheets -->
-    <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="mutual.css" />
 
-    <!-- font -->
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Heebo&display=swap" rel="stylesheet" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex" />
+  <title>Forside</title>
+  <!-- stylesheets -->
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="mutual.css" />
 
-    <!-- menu icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Heebo&display=swap" rel="stylesheet" />
+
+  <!-- menu icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap" rel="stylesheet">
 
 
 
-  </head>
-  <body>
-    <header id="grid_menu">
-      <!-- logo -->
-      <div class="logo">
-        <a href="index.html"><h1 class="logo_overskrift">TJIRS</h1></a>
+</head>
 
-        <!-- <a href="index.html"><img class="logo_img" src="glas2.png" alt="logo" /></a> -->
+<body>
+  <header id="grid_menu">
+    <!-- logo -->
+    <div class="logo">
+      <a href="index.html">
+        <h1 class="logo_overskrift">TJIRS</h1>
+      </a>
+
+      <!-- <a href="index.html"><img class="logo_img" src="glas2.png" alt="logo" /></a> -->
+    </div>
+
+    <!-- logo -->
+    <div class="menu_icons">
+      <div class="div_search">
+        <i id="search" class="fa fa-search"></i>
+        <input id="sogefelt" type="text" class="form-input input-group-main" placeholder="Søg" name="search" required=""
+          autocomplete="off" />
       </div>
 
-      <!-- logo -->
-      <div class="menu_icons">
-        <div class="div_search">
-          <i id="search" class="fa fa-search"></i>
-          <input id="sogefelt" type="text" class="form-input input-group-main" placeholder="Søg" name="search" required="" autocomplete="off" />
-        </div>
+      <i id="kurv" class="fa fa-heart"></i>
 
-        <i id="kurv" class="fa fa-heart"></i>
+      <a href="form.html"><i id="user" class="fa fa-user"></i></a>
 
-        <a href="form.html"><i id="user" class="fa fa-user"></i></a>
-        
-      </div>
+    </div>
 
-      <!-- menu med link til kategorisiden -->
-      <nav id="header-nav">
-        <ul id="menu">
-          <li class="subnav">
-            <a href="kategori.html" class="subnavbtn">Drinks</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <!-- menu med link til kategorisiden -->
+    <nav id="header-nav">
+      <ul id="menu">
+        <li class="subnav">
+          <a href="kategori.html" class="subnavbtn">Drinks</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
-    <main>
-      <!-- Forsiden lavet som en section, der består af billeder, placeret oven på hinanden
+  <main>
+    <!-- Forsiden lavet som en section, der består af billeder, placeret oven på hinanden
       ved hjælp af position: absolute i css -->
-      <section>
-        <div class="parent">
-          <img class="image1" src="backdrop2.png" alt="baggrund" />
-          <img class="image5" src="logo0.webp" alt="" />
-          <img class="image6" src="opacity.webp" alt="" />
-          <img class="image7" src="krusedulle3.webp" alt="" />
-          <img class="image8" src="krusedulle10.webp" alt="" />
-          <img class="image9" src="glas1.webp" alt="" />
-          <h1 class="h1_index">Din cocktail guide</h1>
-          <h2 class="h2_index">Inspiration og opskrifter til enhver fest</h2>
-          <img class="image10" src="cirkel.webp" alt="" />
-          <img class="image11" src="krusedulle8.webp" alt="" />
-          <h1 class="h1_index2">Gå på opdagelse i vores drinks</h1>
-          <img class="image12" src="todrinks.webp" alt="" />
-          <img class="image13" src="krusedulle11.webp" alt="" />
-          
-          <a  class="link_index" href="produktliste.html">SE DRINKS</a>
+    <section>
+      <div class="parent">
+        <img class="image1" src="backdrop2.png" alt="baggrund" />
+        <img class="image5" src="logo0.webp" alt="" />
+        <img class="image6" src="opacity.webp" alt="" />
+        <img class="image7" src="krusedulle3.webp" alt="" />
+        <img class="image8" src="krusedulle10.webp" alt="" />
+        <img class="image9" src="glas1.webp" alt="" />
+        <h1 class="h1_index">Din cocktail guide</h1>
+        <h2 class="h2_index">Inspiration og opskrifter til enhver fest</h2>
+        <img class="image10" src="cirkel.webp" alt="" />
+        <img class="image11" src="krusedulle8.webp" alt="" />
+        <h1 class="h1_index2">Gå på opdagelse i vores drinks</h1>
+        <img class="image12" src="todrinks.webp" alt="" />
+        <img class="image13" src="krusedulle11.webp" alt="" />
 
-          <a class="button"  href="kategori.html">Se Drinks</a>
-            
-          
+        <a class="link_index" href="produktliste.html">SE DRINKS</a>
 
-        
-        </div>
-      </section>
-      <section>
-       
-      </section>
-    </main>
+        <a class="button" href="kategori.html">Se Drinks</a>
 
-    <!-- footer -->
-    <footer class="footer">
 
-        <div>
-            <h1 class="h1_footer ">Information</h1>
-            <p class="p_footer">Handelsbetingelser</p>
-            <p class="p_footer">Åbeningstider</p>
-        </div>
 
-        <div>
-            <h1 class="h1_footer ">Om os</h1>
-            <p class="p_footer">Århusgade 17</p>
-            <p class="p_footer">2000 Frederiksberg</p>
-            <p class="p_footer">Danmark</p>
-            <p class="p_footer">CVR: 12345678</p>
-        </div>
 
-        <div>
-          <h1 class="h1_footer ">Kontakt</h1>
-          <p class="p_footer">+45 12 34 56 78</p>
-          <p class="p_footer">Email: tjirs@gmail.com</p>
-          <div class="sociale_medier">
-        
-            <a href="">
-              <img class="facebook" src="facebook1.svg" alt="facebook" />
-            </a>
-            <a href="">
-              <img class="email" src="email1.svg" alt="mail" />
-            </a>
-            <a href="">
-              <img class="instagram" src="instagram1.svg" alt="insta" />
-            </a>
-  
-          </div>
       </div>
+    </section>
+    <section>
 
-       
+    </section>
+  </main>
 
-    </footer>
-  </body>
+  <!-- footer -->
+  <footer class="footer">
+
+    <div>
+      <h1 class="h1_footer ">Information</h1>
+      <p class="p_footer">Handelsbetingelser</p>
+      <p class="p_footer">Åbeningstider</p>
+    </div>
+
+    <div>
+      <h1 class="h1_footer ">Om os</h1>
+      <p class="p_footer">Århusgade 17</p>
+      <p class="p_footer">2000 Frederiksberg</p>
+      <p class="p_footer">Danmark</p>
+      <p class="p_footer">CVR: 12345678</p>
+    </div>
+
+    <div>
+      <h1 class="h1_footer ">Kontakt</h1>
+      <p class="p_footer">+45 12 34 56 78</p>
+      <p class="p_footer">Email: tjirs@gmail.com</p>
+      <div class="sociale_medier">
+
+        <a href="">
+          <img class="facebook" src="facebook1.svg" alt="facebook" />
+        </a>
+        <a href="">
+          <img class="email" src="email1.svg" alt="mail" />
+        </a>
+        <a href="">
+          <img class="instagram" src="instagram1.svg" alt="insta" />
+        </a>
+
+      </div>
+    </div>
+
+
+
+  </footer>
+</body>
+
 </html>
