@@ -42,6 +42,7 @@ main {
   padding-left: 60px;
 }
 
+
 /* -------------------bokse------------------------ */
 
 /* Den boks hvor selve billedet er inden i. Den div, der indeholder den hele */
@@ -150,7 +151,7 @@ main {
  
 }
 
-.knap_drinks {
+#knap_drinks {
   border: none;
   color: black;
   font-family: bebas neue;
@@ -160,11 +161,13 @@ main {
   padding-inline: 40px;
   position: relative;
   background-color: #deb887;
+  align-self: center;
+  padding: 20px;
   
 
 }
 
-.knap_drinks:hover {
+#knap_drinks:hover {
   color: #e6536d;
   background-color: white;
 
