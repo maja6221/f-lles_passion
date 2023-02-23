@@ -33,7 +33,7 @@ function visData(json) {
   //loope data for hvert produkt
   json.forEach((drink) => {
     //Sortering af produkter efter alkoholtype (tag4)
-    if (cat == "Alle" || cat == drink.tag4) {
+    if (cat == "Drinks" || cat == drink.tag4) {
       //klon template
       const klon = template.cloneNode(true);
 
