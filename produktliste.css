@@ -64,6 +64,14 @@ p {
   color: var(--grey);
 }
 
+.overskrift {
+  grid-column: 1 / span 4;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 3px;
+  font-size: 3rem;
+}
+
 /************************************************* Classes *************************************************/
 
 .beskrivelse {
