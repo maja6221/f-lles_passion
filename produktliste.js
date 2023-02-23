@@ -16,7 +16,6 @@ const options = {
 
 //Hent data
 async function hentData() {
-  //loope data for hvert produkt
   const respons = await fetch(url, options);
   const json = await respons.json();
   //Kald næste funktion
@@ -30,6 +29,8 @@ const template = document.querySelector("template").content;
 
 function visData(json) {
   console.log(json);
+
+  //loope data for hvert produkt
   json.forEach((drink) => {
     //Sortering af produkter efter alkoholtype (tag4)
     if (cat == "Alle" || cat == drink.tag4) {
