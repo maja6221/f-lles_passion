@@ -45,7 +45,6 @@ function visProdukt(drink) {
 
   // Billeder hentes fra restDB
   document.querySelector("#billede").src = "billeder/" + drink.Billede;
-  document.querySelector("img").src = imagePath;
 }
 
 hentData();
