@@ -23,6 +23,10 @@ body {
   margin-right: auto;
 }
 
+#titel {
+  text-align: center;
+}
+
 h1 {
   font-family: "Bebas Neue";
   margin-top: 2rem;
@@ -36,8 +40,8 @@ h1 {
 
 h3 {
   font-family: "Bebas Neue", cursive;
-  font-size: xx-large;
-  padding: 20px;
+  font-size: xxx-large;
+  padding: 17px;
 }
 h3:hover {
   color: #e6536d;
@@ -84,7 +88,10 @@ li {
 }
 
 .overskrift_produkt {
-  text-align: center;
+  font-family: bebas neue;
+  font-size: x-large;
+  padding-bottom: 20px;
+  padding-left: 20px;
 }
 
 /********* Produktet ********/
