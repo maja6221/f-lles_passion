@@ -134,16 +134,21 @@ li {
 
   #billede {
     position: absolute;
-    top: 10em;
+    top: 13em;
     left: 2em;
     width: 81%;
   }
 
   .card2 {
     position: absolute;
-    top: 25em;
+    top: 27em;
     left: -1em;
     width: 87%;
     bottom: -6em;
   }
+
+  main {
+    padding-bottom: 45em;
+  }
 }
+

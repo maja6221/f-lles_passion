@@ -167,3 +167,28 @@ main {
   color: #e6536d;
   background-color: white;
 }
+
+
+@media (max-width: 600px) {
+  #knap_drinks {
+    border: none;
+    color: black;
+    font-family: "bebas neue";
+    text-transform: uppercase;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    padding-inline: 40px;
+    position: relative;
+    background-color: #deb887;
+    align-self: center;
+    padding: 20px;
+  }
+  .alle_drinks {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-top: 30px;
+  }
+  
+}
