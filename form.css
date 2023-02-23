@@ -80,3 +80,90 @@ form {
 .body_form {
   background-color: var(--beige);
 }
+
+@media (max-width: 600px) {
+  body {
+    font-family: "Prompt", sans-serif;
+  }
+  
+  form {
+    display: grid;
+    margin-inline: 35px;
+    width: 65%;
+    gap: 1em;
+    margin-top: 10%;
+  }
+  
+  .form-felt {
+    display: grid;
+    gap: 5px;
+  }
+  
+  .form-felt2 {
+    align-self: center;
+  }
+  #mainGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-inline: 10px;
+    padding-bottom: 15em;
+  }
+  
+  .glemt_kodeord {
+    text-decoration: underline;
+    color: grey;
+    font-size: 12px;
+  }
+  
+  .glemt_kodeord:hover {
+    color: #e6536d;
+  }
+  
+  .formGap {
+    gap: 1em;
+  }
+  
+  #email {
+    padding: 10px;
+  }
+  
+  .email {
+    color: #e6536d;
+  }
+  
+  #kodeord {
+    padding: 10px;
+  }
+  
+  .kodeord1 {
+    color: #e6536d;
+  }
+  
+  .h1_login {
+    color: black;
+  }
+  
+  .gæst {
+    color: #e6536d;
+  }
+  .knap {
+    background-color: #deb887;
+    color: black;
+    font-family: "Prompt", sans-serif;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    font-size: unset;
+  }
+  
+  .knap:hover {
+    color: #e6536d;
+    background-color: white;
+  }
+  
+  .body_form {
+    background-color: var(--beige);
+  }
+  
+}
+
