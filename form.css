@@ -22,6 +22,7 @@ form {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-inline: 150px;
+  padding-bottom: 15em;
 }
 
 .glemt_kodeord {
@@ -63,7 +64,7 @@ form {
   color: #e6536d;
 }
 .knap {
-  background-color: #cabd96;
+  background-color: #deb887;
   color: black;
   font-family: "Bebas Neue", cursive;
   padding: 8px;
@@ -78,5 +79,5 @@ form {
 }
 
 .body_form {
-  background-color: #DDD4B9;
+  background-color: var(--beige);
 }
