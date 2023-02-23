@@ -23,7 +23,7 @@ const template = document.querySelector("template").content;
 function visData(json) {
   console.log(json);
   json.forEach((drink) => {
-    if (cat == "" || cat == drink.tag4) {
+    if (cat == "Alle" || cat == drink.tag4) {
       const klon = template.cloneNode(true);
       klon.querySelector(".Titel").textContent = drink.navn;
       klon.querySelector(".beskrivelse").textContent = drink.beskrivelse;
