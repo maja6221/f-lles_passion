@@ -28,7 +28,7 @@ main {
 .image5 {
   position: absolute;
   top: 10em;
-  left: 27em;
+  left: 28em;
   width: 35%;
 }
 
@@ -138,7 +138,7 @@ main {
   width: 20%;
   position: absolute;
   top: 35em;
-  left: 35em;
+  left: 36em;
 }
 .button:active {
   background-color: white;
