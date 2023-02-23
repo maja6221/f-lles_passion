@@ -70,6 +70,9 @@ p {
   font-family: "Bebas Neue", cursive;
   letter-spacing: 3px;
   font-size: 3rem;
+
+  padding-top: 2rem;
+  text-align: center;
 }
 
 /************************************************* Classes *************************************************/
@@ -120,10 +123,11 @@ p {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
     gap: 2rem;
-    max-width: 1400px;
+    max-width: 1250px;
     margin-left: auto;
     margin-right: auto;
-    padding: 2rem;
+    padding: 0 2.5rem 0 2.5rem;
+    align-self: center;
   }
 
   p {
@@ -135,9 +139,5 @@ p {
   }
   article {
     height: 100%;
-  }
-
-  .overskrift {
-    grid-column: 1 / span max;
   }
 }

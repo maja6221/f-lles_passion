@@ -5,7 +5,7 @@ const cat = urlParams.get("cat");
 const url = `https://personliste-ddf3.restdb.io/rest/drinks?tag4=${cat}`;
 
 //ændre overskrift til kategori
-document.querySelector("h1").textContent = cat;
+document.querySelector(".overskrift").textContent = cat;
 
 //indsend API nøgle for at låse op for Restdb
 const options = {
