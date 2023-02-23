@@ -146,7 +146,7 @@ main {
   transform: translateY(4px);
 }
 
-button:hover {
+.button:hover {
   color: #e6536d;
   background-color: white;
 }

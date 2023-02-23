@@ -32,9 +32,9 @@ img {
   margin-right: auto;
 }
 
-/* main {
-  background-color: #DDD4B9;
-} */
+main {
+ padding-bottom: 8em;
+}
 
 .h1_kategori {
   font-family: bebas neue;
