@@ -122,7 +122,35 @@ main {
   font-size: 40px;
   font-family: bebas neue;
   text-decoration: underline;
+
 }
+
+.button {
+  color: #ffffff;
+  background-color: #e6536d ;
+  border: none;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 10px 10px;
+  font-size: 16px;
+  font-family: "bebas neue";
+  text-align: center;
+  width: 20%;
+  position: absolute;
+  top: 35em;
+  left: 35em;
+}
+.button:active {
+  background-color: white;
+  box-shadow: 5px 5px 5px;
+  transform: translateY(4px);
+}
+
+button:hover {
+  color: #e6536d;
+  background-color: white;
+}
+
 
 /* responsivt design */
 
@@ -236,6 +264,10 @@ main {
     font-size: 18px;
     font-family: bebas neue;
     text-decoration: underline;
+  }
+
+  .button {
+  display: none;
   }
 }
 
