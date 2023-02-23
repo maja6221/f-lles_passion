@@ -75,8 +75,12 @@ li {
   font-family: "Bebas Neue", cursive;
   padding: 0.5rem;
   background-color: #f5e4bb;
-  font-size: 0.7rem;
+  font-size: 1rem;
   border-radius: 5px;
+}
+
+#tilbageKnap {
+  padding-left: 88px;
 }
 
 .overskrift_produkt {
