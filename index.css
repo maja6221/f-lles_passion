@@ -73,7 +73,7 @@ main {
   top: 38.5em;
   left: 18em;
   font-size: 30px;
-  font-family: "Heebo", sans-serif;
+  font-family: "Prompt", sans-serif;
 }
 
 .image10 {
@@ -122,12 +122,11 @@ main {
   font-size: 40px;
   font-family: bebas neue;
   text-decoration: underline;
-
 }
 
 .button {
   color: #ffffff;
-  background-color: #e6536d ;
+  background-color: #e6536d;
   border: none;
   border-radius: 10px;
   display: inline-block;
@@ -150,7 +149,6 @@ main {
   color: #e6536d;
   background-color: white;
 }
-
 
 /* responsivt design */
 
@@ -217,7 +215,7 @@ main {
     top: 21.3em;
     left: 8em;
     font-size: 17px;
-    font-family: "Heebo", sans-serif;
+    font-family: "Prompt", sans-serif;
   }
 
   .image10 {
@@ -267,7 +265,7 @@ main {
   }
 
   .button {
-  display: none;
+    display: none;
   }
 }
 

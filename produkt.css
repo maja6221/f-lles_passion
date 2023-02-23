@@ -24,7 +24,7 @@ body {
 }
 
 h1 {
-  font-family: "Prompt", sans-serif;
+  font-family: "Bebas Neue";
   margin-top: 2rem;
 }
 .opskrift_overskrift {
@@ -44,12 +44,12 @@ h3:hover {
 }
 
 p {
-  font-family: "Heebo", sans-serif;
+  font-family: "Prompt", sans-serif;
   padding: 20px;
 }
 
 li {
-  font-family: "Heebo", sans-serif;
+  font-family: "Prompt", sans-serif;
   list-style-type: none;
   padding-left: 20px;
 }
@@ -72,7 +72,7 @@ li {
 }
 
 .tilbageKnap {
-  font-family: "Bebas Neue", cursive;
+  font-family: "Prompt", sans-serif;
   padding: 0.5rem;
   background-color: #f5e4bb;
   font-size: 1rem;

@@ -1,5 +1,5 @@
 body {
-  font-family: "Bebas Neue", cursive;
+  font-family: "Prompt", sans-serif;
 }
 
 form {
@@ -47,7 +47,6 @@ form {
   color: #e6536d;
 }
 
-
 #kodeord {
   padding: 10px;
 }
@@ -66,7 +65,7 @@ form {
 .knap {
   background-color: #deb887;
   color: black;
-  font-family: "Bebas Neue", cursive;
+  font-family: "Prompt", sans-serif;
   padding: 8px;
   border-radius: 5px;
   border: none;
